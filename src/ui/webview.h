@@ -5,8 +5,9 @@
 class WebView : public UIComponent {
 	public:
 		void show();
-		GtkWidget *getWidget();
-		VebView();
+		GtkWidget* getWidget();
+		WebView();
+		~WebView();
 	private:
-		WebkitWebView *view;
-}
+		WebKitWebView *view;
+};

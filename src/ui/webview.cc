@@ -1,13 +1,12 @@
 #import <webkit2/webkit2.h>
 #import <gtk/gtk.h>
-#import "uicomponent.h"
 #import "webview.h"
 
 
-void WebView::show(void) {
+void WebView::show() {
 }
 
-VewView::WebView(void) {
+WebView::WebView() {
 	view = WEBKIT_WEB_VIEW(webkit_web_view_new());
 }
 
